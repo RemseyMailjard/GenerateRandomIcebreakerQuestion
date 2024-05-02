@@ -10,14 +10,43 @@ function generateIcebreaker() {
     "What's your favorite season of the year and why?",
     "What’s your favorite dish to cook or eat?",
     "If you could instantly become an expert in something, what would it be?",
+    "What's one book you think everyone should read?",
+    "What's a skill you learned when you were younger that you still use today?",
+    "What’s the most interesting documentary you've ever seen?",
+    "If you had to choose only one app on your phone, which one would it be?",
+    "What’s your go-to karaoke song?",
+    "If you could be any animal for a day, which one would you be and why?",
+    "What's your favorite memory from childhood?",
+    "What's something you've done that you're really proud of?",
+    "What's one goal you have for the next year?",
+    "What's a piece of advice you've received that has stuck with you?",
+    "What fictional character do you wish you could meet in real life?",
+    "What’s one city you’ve visited that surprised you the most?",
+    "What’s your favorite way to spend a weekend?",
+    "What's the best concert or live event you’ve ever attended?",
+    "What’s one language you wish you could speak fluently?",
+    "What’s the best gift you’ve ever received?",
+    "What’s the last thing you created?",
+    "What’s your favorite quote or saying?",
+    "What’s one thing you’re excited about that’s coming up in 2023?",
+    "If you could master one musical instrument, what would it be?",
+    "What’s the funniest thing that happened to you recently?",
+    "What’s your favorite tradition or holiday?",
+    "If you could switch lives with one person for a day, who would it be?",
+    "What’s something you used to do as a child that you miss?",
+    "What’s the most daring experience you’ve ever had?",
+    "If you could learn any skill in an instant, what would it be?",
+    "What's something you've always wanted to try but haven't yet?",
+    "What’s your favorite board game or card game?",
+    "Who’s someone you really admire?",
+    "What’s a common misconception about your job or hobby?"
   ];
 
   // Randomly select a question
   const index = Math.floor(Math.random() * questions.length);
 
   document.getElementById("displayQuestion").innerHTML = questions[index];
-  // return questions[index];
 }
 
 // Example usage:
-let thequestion = generateIcebreaker();
+
