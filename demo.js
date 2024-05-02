@@ -39,7 +39,7 @@ function generateIcebreaker() {
     "What's something you've always wanted to try but haven't yet?",
     "What’s your favorite board game or card game?",
     "Who’s someone you really admire?",
-    "What’s a common misconception about your job or hobby?"
+    "What’s a common misconception about your job or hobby?",
   ];
 
   // Randomly select a question
@@ -48,5 +48,9 @@ function generateIcebreaker() {
   document.getElementById("displayQuestion").innerHTML = questions[index];
 }
 
+function SayMyName(mysecretcode) {
+  let myname = document.getElementById("myName").value;
+  console.log(myname);
+  alert(`Hi ${myname} - ${mysecretcode}`);
+}
 // Example usage:
-
