@@ -20,27 +20,31 @@
         </nav>
     </header>
 
-    <label for="myName">My Name</label>
-    <input type="text" name="myname" id="myName">
-    <br>
+    <div class="calculator">
+        <div class="input-group">
+            <label for="numberOne">First Number:</label>
+            <input type="number" id="numberOne" name="firstNumber">
+        </div>
 
-    <label for="numberOne">firstNumber</label>
-    <input type="number" name="myname" id="numberOne">
+        <div class="input-group">
+            <label for="numberTwo">Second Number:</label>
+            <input type="number" id="numberTwo" name="secondNumber">
+        </div>
 
-    <label for="numberTwo">secondNumber</label>
-    <input type="number" name="myname" id="numberTwo">
-    <br>
-    <div class="buttonStyling">
-        <button type="button" class="btn btn-primary" onclick="calculate('add')">+</button>
-        <button type="button" class="btn btn-primary" onclick="calculate('subtract')">-</button>
-        <button type="button" class="btn btn-primary" onclick="calculate('divide')">/</button>
-        <button type="button" class="btn btn-primary" onclick="calculate('multiply')">*</button>
+        <div class="button-group">
+            <button onclick="calculate('add')">+</button>
+            <button onclick="calculate('subtract')">-</button>
+            <button onclick="calculate('divide')">/</button>
+            <button onclick="calculate('multiply')">*</button>
+
+        </div>
+        <p id="result">
+
+
+        </p>
     </div>
 
-    <p id="result">
 
-
-    </p>
 
     <button type="button" class="btn btn-primary" onclick="SayMyName(1234)">Say my name and secret code
         question</button>
