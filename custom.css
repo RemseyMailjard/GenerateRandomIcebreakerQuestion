@@ -25,6 +25,10 @@
     flex-direction: column;
 }
 
+.buttonStyling {
+    text-align: left;
+}
+
 .col {
     text-align: justify;
     padding: 15px;
